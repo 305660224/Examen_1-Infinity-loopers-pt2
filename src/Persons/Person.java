@@ -8,9 +8,9 @@ package Persons;
  * 04/07/2025 ult mod: 3:21pm
  * @author Dennis Marchena
  */
-public class Person {
-private String Id;      
-private String Name;  
+public abstract class Person {
+protected String Id;      
+protected String Name;  
 
 //Metodos Get
 public String getId() {

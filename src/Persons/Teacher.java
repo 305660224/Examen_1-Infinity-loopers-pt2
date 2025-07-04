@@ -23,7 +23,7 @@ public void setCarrer(String Deparment) {
 
 //Constructor
 public void Student (String Deparment, String Id, String Name) {
-super(String Id, String Name)
 this.Deparment=Deparment;
  }
+
 }

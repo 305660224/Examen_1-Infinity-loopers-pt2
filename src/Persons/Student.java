@@ -23,7 +23,6 @@ public void setCarrer(String Career) {
 
 //Constructor
 public void Student (String Career, String Id, String Name) {
-super(String Id, String Name);
 this.Career=Career;
  }
 
