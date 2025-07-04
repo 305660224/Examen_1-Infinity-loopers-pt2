@@ -9,5 +9,25 @@ package Curses;
  * @author Dennis Marchena
  */
 public class Curse {
-    
+private int Code;
+private String Name;
+private String Group; 
+
+    public int getCode() {
+        return Code;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getGroup() {
+        return Group;
+    }
+
+    public Curse(int Code, String Name, String Group) {
+        this.Code = Code;
+        this.Name = Name;
+        this.Group = Group;
+    }
 }

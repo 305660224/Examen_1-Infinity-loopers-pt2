@@ -8,7 +8,7 @@ package Persons;
  * 04/07/2025 ult mod: 2:21pm
  * @author Dennis Marchena
  */
-public class Teacher {
+public class Teacher extends Person{
 private String Deparment;      
 
 //Metodos Get
