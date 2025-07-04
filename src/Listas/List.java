@@ -1,4 +1,4 @@
-package Lists;
+package Listas;
 
 public interface List <T> {
     boolean add(T t); 
